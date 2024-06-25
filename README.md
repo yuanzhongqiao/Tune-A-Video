@@ -22,27 +22,7 @@
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/c0d1f46f5b3df097866868c6db7b161b47ad329930a037841d8f00aa9e9f7f16/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f7465617365722e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f7465617365722e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/c0d1f46f5b3df097866868c6db7b161b47ad329930a037841d8f00aa9e9f7f16/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f7465617365722e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="814" height="454"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="播放 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f7465617365722e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="播放 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f7465617365722e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="在新窗口中打开 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f7465617365722e676966" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/c0d1f46f5b3df097866868c6db7b161b47ad329930a037841d8f00aa9e9f7f16/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f7465617365722e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image>  
+        
 <br>
 <em><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">给定一个视频文本对作为输入，我们的方法 Tune-A-Video 对预先训练的文本到图像扩散模型进行微调，以生成文本到视频。</font></font></em>
 </p>
@@ -58,14 +38,7 @@
 <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">设置</font></font></h2><a id="user-content-setup" class="anchor" aria-label="固定链接：设置" href="#setup"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求</font></font></h3><a id="user-content-requirements" class="anchor" aria-label="固定链接：要求" href="#requirements"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install -r requirements.txt</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install -r requirements.txt" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">强烈建议</font><font style="vertical-align: inherit;">安装</font></font><a href="https://github.com/facebookresearch/xformers"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">xformers</font></font></a><font style="vertical-align: inherit;"></font><code>enable_xformers_memory_efficient_attention=True</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> ，以提高 GPU 的效率和速度。要启用 xformers，请设置（默认）。</font></font></p>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重量</font></font></h3><a id="user-content-weights" class="anchor" aria-label="固定链接：重量" href="#weights"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
@@ -75,14 +48,7 @@
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">训练</font></font></h3><a id="user-content-training" class="anchor" aria-label="固定链接：培训" href="#training"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要微调文本到图像扩散模型以生成文本到视频，请运行以下命令：</font></font></p>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>accelerate launch train_tuneavideo.py --config=<span class="pl-s"><span class="pl-pds">"</span>configs/man-skiing.yaml<span class="pl-pds">"</span></span></pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="accelerate launch train_tuneavideo.py --config=&quot;configs/man-skiing.yaml&quot;" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">注意：使用一个 A100 GPU，</font><font style="vertical-align: inherit;">调整 24 帧视频通常需要</font></font><code>300~500</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">几个步骤，大约需要几分钟。</font><font style="vertical-align: inherit;">如果您的 GPU 内存有限，请减少此步骤。</font></font><code>10~15</code><font style="vertical-align: inherit;"></font><code>n_sample_frames</code><font style="vertical-align: inherit;"></font></p>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推理</font></font></h3><a id="user-content-inference" class="anchor" aria-label="永久链接：推理" href="#inference"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
@@ -104,30 +70,7 @@
 <span class="pl-s1">video</span> <span class="pl-c1">=</span> <span class="pl-en">pipe</span>(<span class="pl-s1">prompt</span>, <span class="pl-s1">latents</span><span class="pl-c1">=</span><span class="pl-s1">ddim_inv_latent</span>, <span class="pl-s1">video_length</span><span class="pl-c1">=</span><span class="pl-c1">24</span>, <span class="pl-s1">height</span><span class="pl-c1">=</span><span class="pl-c1">512</span>, <span class="pl-s1">width</span><span class="pl-c1">=</span><span class="pl-c1">512</span>, <span class="pl-s1">num_inference_steps</span><span class="pl-c1">=</span><span class="pl-c1">50</span>, <span class="pl-s1">guidance_scale</span><span class="pl-c1">=</span><span class="pl-c1">12.5</span>).<span class="pl-s1">videos</span>
 
 <span class="pl-en">save_videos_grid</span>(<span class="pl-s1">video</span>, <span class="pl-s">f"./<span class="pl-s1"><span class="pl-kos">{</span><span class="pl-s1">prompt</span><span class="pl-kos">}</span></span>.gif"</span>)</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from tuneavideo.pipelines.pipeline_tuneavideo import TuneAVideoPipeline
-from tuneavideo.models.unet import UNet3DConditionModel
-from tuneavideo.util import save_videos_grid
-import torch
-
-pretrained_model_path = &quot;./checkpoints/stable-diffusion-v1-4&quot;
-my_model_path = &quot;./outputs/man-skiing&quot;
-unet = UNet3DConditionModel.from_pretrained(my_model_path, subfolder='unet', torch_dtype=torch.float16).to('cuda')
-pipe = TuneAVideoPipeline.from_pretrained(pretrained_model_path, unet=unet, torch_dtype=torch.float16).to(&quot;cuda&quot;)
-pipe.enable_xformers_memory_efficient_attention()
-pipe.enable_vae_slicing()
-
-prompt = &quot;spider man is skiing&quot;
-ddim_inv_latent = torch.load(f&quot;{my_model_path}/inv_latents/ddim_latent-500.pt&quot;).to(torch.float16)
-video = pipe(prompt, latents=ddim_inv_latent, video_length=24, height=512, width=512, num_inference_steps=50, guidance_scale=12.5).videos
-
-save_videos_grid(video, f&quot;./{prompt}.gif&quot;)" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+    
   </div></div>
 <div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">结果</font></font></h2><a id="user-content-results" class="anchor" aria-label="永久链接：结果" href="#results"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <div class="markdown-heading" dir="auto"><h3 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">预训练 T2I（稳定扩散）</font></font></h3><a id="user-content-pretrained-t2i-stable-diffusion" class="anchor" aria-label="永久链接：预训练 T2I（稳定扩散）" href="#pretrained-t2i-stable-diffusion"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
@@ -140,103 +83,21 @@ save_videos_grid(video, f&quot;./{prompt}.gif&quot;)" tabindex="0" role="button"
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/1ae6eaf58c2668238729e7d8c695a3071eaa2162ea6f71ed9b9de1614b612b1f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d736b69696e672e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/1ae6eaf58c2668238729e7d8c695a3071eaa2162ea6f71ed9b9de1614b612b1f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d736b69696e672e676966" data-canonical-src="https://tuneavideo.github.io/assets/data/man-skiing.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/1ae6eaf58c2668238729e7d8c695a3071eaa2162ea6f71ed9b9de1614b612b1f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d736b69696e672e676966" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d736b69696e672e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/1ae6eaf58c2668238729e7d8c695a3071eaa2162ea6f71ed9b9de1614b612b1f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d736b69696e672e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="播放 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d736b69696e672e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="播放 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d736b69696e672e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d736b69696e672e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/1ae6eaf58c2668238729e7d8c695a3071eaa2162ea6f71ed9b9de1614b612b1f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d736b69696e672e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+       
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/f9728e9655c0b285aaf3c02b7a91b79973e8b65d1d28f39ea256830df30f917b/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f7370696465726d616e2d62656163682e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/f9728e9655c0b285aaf3c02b7a91b79973e8b65d1d28f39ea256830df30f917b/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f7370696465726d616e2d62656163682e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/man-skiing/spiderman-beach.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/f9728e9655c0b285aaf3c02b7a91b79973e8b65d1d28f39ea256830df30f917b/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f7370696465726d616e2d62656163682e676966" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f7370696465726d616e2d62656163682e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/f9728e9655c0b285aaf3c02b7a91b79973e8b65d1d28f39ea256830df30f917b/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f7370696465726d616e2d62656163682e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f7370696465726d616e2d62656163682e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f7370696465726d616e2d62656163682e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f7370696465726d616e2d62656163682e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/f9728e9655c0b285aaf3c02b7a91b79973e8b65d1d28f39ea256830df30f917b/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f7370696465726d616e2d62656163682e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+       
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3bcf1f041c82f2429f808ef1834dc324d6da2e90403ec151fd622f15e56554fe/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f776f6e6465722d776f6d616e2e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/3bcf1f041c82f2429f808ef1834dc324d6da2e90403ec151fd622f15e56554fe/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f776f6e6465722d776f6d616e2e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/man-skiing/wonder-woman.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/3bcf1f041c82f2429f808ef1834dc324d6da2e90403ec151fd622f15e56554fe/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f776f6e6465722d776f6d616e2e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f776f6e6465722d776f6d616e2e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/3bcf1f041c82f2429f808ef1834dc324d6da2e90403ec151fd622f15e56554fe/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f776f6e6465722d776f6d616e2e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f776f6e6465722d776f6d616e2e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f776f6e6465722d776f6d616e2e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f776f6e6465722d776f6d616e2e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/3bcf1f041c82f2429f808ef1834dc324d6da2e90403ec151fd622f15e56554fe/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f776f6e6465722d776f6d616e2e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>              
+                 
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/dcaa314ccd5a4b5da905df5870007d175c05ef42216a9bac5a9a385613563069/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f70696e6b2d73756e7365742e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/dcaa314ccd5a4b5da905df5870007d175c05ef42216a9bac5a9a385613563069/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f70696e6b2d73756e7365742e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/man-skiing/pink-sunset.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/dcaa314ccd5a4b5da905df5870007d175c05ef42216a9bac5a9a385613563069/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f70696e6b2d73756e7365742e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f70696e6b2d73756e7365742e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/dcaa314ccd5a4b5da905df5870007d175c05ef42216a9bac5a9a385613563069/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f70696e6b2d73756e7365742e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f70696e6b2d73756e7365742e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f70696e6b2d73756e7365742e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f70696e6b2d73756e7365742e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/dcaa314ccd5a4b5da905df5870007d175c05ef42216a9bac5a9a385613563069/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d736b69696e672f70696e6b2d73756e7365742e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
 </tr>
 <tr>
   <td width="25%"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“一名男子正在滑雪”</font></font></td>
@@ -248,103 +109,22 @@ save_videos_grid(video, f&quot;./{prompt}.gif&quot;)" tabindex="0" role="button"
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/b815f3d0a58553b9eec9a2558128256792859d8c295bc9aaf76dc9164dac1761/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f7261626269742d77617465726d656c6f6e2e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/b815f3d0a58553b9eec9a2558128256792859d8c295bc9aaf76dc9164dac1761/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f7261626269742d77617465726d656c6f6e2e676966" data-canonical-src="https://tuneavideo.github.io/assets/data/rabbit-watermelon.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/b815f3d0a58553b9eec9a2558128256792859d8c295bc9aaf76dc9164dac1761/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f7261626269742d77617465726d656c6f6e2e676966" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f7261626269742d77617465726d656c6f6e2e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/b815f3d0a58553b9eec9a2558128256792859d8c295bc9aaf76dc9164dac1761/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f7261626269742d77617465726d656c6f6e2e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f7261626269742d77617465726d656c6f6e2e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f7261626269742d77617465726d656c6f6e2e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f7261626269742d77617465726d656c6f6e2e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/b815f3d0a58553b9eec9a2558128256792859d8c295bc9aaf76dc9164dac1761/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f7261626269742d77617465726d656c6f6e2e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+       
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/cec140cec36fccf6b849156e718fdcc23005b7673072dd373fc66d05d69ba518/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f7261626269742e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/cec140cec36fccf6b849156e718fdcc23005b7673072dd373fc66d05d69ba518/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f7261626269742e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/rabbit-watermelon/rabbit.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/cec140cec36fccf6b849156e718fdcc23005b7673072dd373fc66d05d69ba518/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f7261626269742e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f7261626269742e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/cec140cec36fccf6b849156e718fdcc23005b7673072dd373fc66d05d69ba518/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f7261626269742e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f7261626269742e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f7261626269742e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f7261626269742e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/cec140cec36fccf6b849156e718fdcc23005b7673072dd373fc66d05d69ba518/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f7261626269742e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3b0ca59ff872c7f8ab8ee98ff655728761781ed1cecd4d07d9198983522d0e56/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f6361742e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/3b0ca59ff872c7f8ab8ee98ff655728761781ed1cecd4d07d9198983522d0e56/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f6361742e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/rabbit-watermelon/cat.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/3b0ca59ff872c7f8ab8ee98ff655728761781ed1cecd4d07d9198983522d0e56/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f6361742e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f6361742e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/3b0ca59ff872c7f8ab8ee98ff655728761781ed1cecd4d07d9198983522d0e56/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f6361742e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f6361742e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f6361742e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f6361742e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/3b0ca59ff872c7f8ab8ee98ff655728761781ed1cecd4d07d9198983522d0e56/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f6361742e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>              
+            
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/24decd89a20ed1aaa8e18b8a382ccf3954beb6e599b194cf8125254c21e58337/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f70757070792e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/24decd89a20ed1aaa8e18b8a382ccf3954beb6e599b194cf8125254c21e58337/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f70757070792e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/rabbit-watermelon/puppy.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/24decd89a20ed1aaa8e18b8a382ccf3954beb6e599b194cf8125254c21e58337/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f70757070792e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f70757070792e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/24decd89a20ed1aaa8e18b8a382ccf3954beb6e599b194cf8125254c21e58337/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f70757070792e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f70757070792e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f70757070792e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f70757070792e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/24decd89a20ed1aaa8e18b8a382ccf3954beb6e599b194cf8125254c21e58337/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f7261626269742d77617465726d656c6f6e2f70757070792e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+         
 </tr>
 <tr>
   <td width="25%"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“一只兔子正在桌上吃西瓜”</font></font></td>
@@ -356,103 +136,22 @@ save_videos_grid(video, f&quot;./{prompt}.gif&quot;)" tabindex="0" role="button"
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6631445ace834c5c94a20e6dc9744bee56b6c6f9a5784a8091c305156b4b175a/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6361722d7475726e2e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/6631445ace834c5c94a20e6dc9744bee56b6c6f9a5784a8091c305156b4b175a/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6361722d7475726e2e676966" data-canonical-src="https://tuneavideo.github.io/assets/data/car-turn.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/6631445ace834c5c94a20e6dc9744bee56b6c6f9a5784a8091c305156b4b175a/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6361722d7475726e2e676966" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6361722d7475726e2e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/6631445ace834c5c94a20e6dc9744bee56b6c6f9a5784a8091c305156b4b175a/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6361722d7475726e2e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6361722d7475726e2e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6361722d7475726e2e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6361722d7475726e2e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/6631445ace834c5c94a20e6dc9744bee56b6c6f9a5784a8091c305156b4b175a/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6361722d7475726e2e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+      
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/25d64df7ac7755632122af7d1d0d956324584e2d158f66388ee6655ff879a993/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f706f72736368652d62656163682e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/25d64df7ac7755632122af7d1d0d956324584e2d158f66388ee6655ff879a993/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f706f72736368652d62656163682e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/car-turn/porsche-beach.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/25d64df7ac7755632122af7d1d0d956324584e2d158f66388ee6655ff879a993/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f706f72736368652d62656163682e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f706f72736368652d62656163682e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/25d64df7ac7755632122af7d1d0d956324584e2d158f66388ee6655ff879a993/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f706f72736368652d62656163682e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f706f72736368652d62656163682e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f706f72736368652d62656163682e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f706f72736368652d62656163682e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/25d64df7ac7755632122af7d1d0d956324584e2d158f66388ee6655ff879a993/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f706f72736368652d62656163682e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+       
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/2cefb57612ed97b600fb2e6852e2953b6edf06deed9a235d3c4f18fa0145af67/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d636172746f6f6e2e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/2cefb57612ed97b600fb2e6852e2953b6edf06deed9a235d3c4f18fa0145af67/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d636172746f6f6e2e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/car-turn/car-cartoon.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/2cefb57612ed97b600fb2e6852e2953b6edf06deed9a235d3c4f18fa0145af67/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d636172746f6f6e2e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d636172746f6f6e2e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/2cefb57612ed97b600fb2e6852e2953b6edf06deed9a235d3c4f18fa0145af67/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d636172746f6f6e2e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d636172746f6f6e2e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d636172746f6f6e2e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d636172746f6f6e2e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/2cefb57612ed97b600fb2e6852e2953b6edf06deed9a235d3c4f18fa0145af67/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d636172746f6f6e2e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>              
+              
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/99161bc078348bdb1b86b5ab4f778d7dca16671582b666104706fcd81e3ce863/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d736e6f772e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/99161bc078348bdb1b86b5ab4f778d7dca16671582b666104706fcd81e3ce863/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d736e6f772e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/car-turn/car-snow.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/99161bc078348bdb1b86b5ab4f778d7dca16671582b666104706fcd81e3ce863/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d736e6f772e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d736e6f772e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/99161bc078348bdb1b86b5ab4f778d7dca16671582b666104706fcd81e3ce863/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d736e6f772e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d736e6f772e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d736e6f772e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d736e6f772e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/99161bc078348bdb1b86b5ab4f778d7dca16671582b666104706fcd81e3ce863/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6361722d7475726e2f6361722d736e6f772e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+       
 </tr>
 <tr>
   <td width="25%"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“一辆吉普车在路上行驶”</font></font></td>
@@ -465,102 +164,21 @@ save_videos_grid(video, f&quot;./{prompt}.gif&quot;)" tabindex="0" role="button"
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/4b3b0c1c35b903737065e844729cfd1409053037461800deb7dc448d9042dd69/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d6261736b657462616c6c2e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d6261736b657462616c6c2e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/4b3b0c1c35b903737065e844729cfd1409053037461800deb7dc448d9042dd69/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d6261736b657462616c6c2e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d6261736b657462616c6c2e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d6261736b657462616c6c2e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d6261736b657462616c6c2e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/4b3b0c1c35b903737065e844729cfd1409053037461800deb7dc448d9042dd69/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f6d616e2d6261736b657462616c6c2e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/dea73af4b7b706cfce6ccb23e5b0b87977da50dfa94bc2dde81099e4ee934f80/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f626f6e642e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/dea73af4b7b706cfce6ccb23e5b0b87977da50dfa94bc2dde81099e4ee934f80/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f626f6e642e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/man-basketball/bond.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/dea73af4b7b706cfce6ccb23e5b0b87977da50dfa94bc2dde81099e4ee934f80/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f626f6e642e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f626f6e642e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/dea73af4b7b706cfce6ccb23e5b0b87977da50dfa94bc2dde81099e4ee934f80/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f626f6e642e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f626f6e642e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f626f6e642e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f626f6e642e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/dea73af4b7b706cfce6ccb23e5b0b87977da50dfa94bc2dde81099e4ee934f80/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f626f6e642e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d7ff92f28d1d817de604fe159958e5e2243b01b173e6a6cabb8f966355cd1a72/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f617374726f6e6175742e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/d7ff92f28d1d817de604fe159958e5e2243b01b173e6a6cabb8f966355cd1a72/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f617374726f6e6175742e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/man-basketball/astronaut.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/d7ff92f28d1d817de604fe159958e5e2243b01b173e6a6cabb8f966355cd1a72/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f617374726f6e6175742e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f617374726f6e6175742e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/d7ff92f28d1d817de604fe159958e5e2243b01b173e6a6cabb8f966355cd1a72/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f617374726f6e6175742e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f617374726f6e6175742e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f617374726f6e6175742e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f617374726f6e6175742e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/d7ff92f28d1d817de604fe159958e5e2243b01b173e6a6cabb8f966355cd1a72/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f617374726f6e6175742e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>              
+                 
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/186a0e6a49d4d477df94ef78a2da525dc30aa9506e544b9445595503bf3ddd8f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f6c65676f2e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/186a0e6a49d4d477df94ef78a2da525dc30aa9506e544b9445595503bf3ddd8f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f6c65676f2e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/man-basketball/lego.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/186a0e6a49d4d477df94ef78a2da525dc30aa9506e544b9445595503bf3ddd8f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f6c65676f2e676966" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f6c65676f2e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/186a0e6a49d4d477df94ef78a2da525dc30aa9506e544b9445595503bf3ddd8f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f6c65676f2e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f6c65676f2e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f6c65676f2e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f6c65676f2e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/186a0e6a49d4d477df94ef78a2da525dc30aa9506e544b9445595503bf3ddd8f/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d616e2d6261736b657462616c6c2f6c65676f2e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
 </tr>
 <tr>
   <td width="25%"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“一名男子正在运球”</font></font></td>
@@ -580,103 +198,22 @@ save_videos_grid(video, f&quot;./{prompt}.gif&quot;)" tabindex="0" role="button"
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" data-canonical-src="https://tuneavideo.github.io/assets/data/bear-guitar.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/6893a8fcc6ef913b1fbbfe2e2fc7e644da8685642a1475fa671c5e1b5184c9fd/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d737472656574732e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/6893a8fcc6ef913b1fbbfe2e2fc7e644da8685642a1475fa671c5e1b5184c9fd/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d737472656574732e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/anything-v4/bear-guitar/1girl-streets.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/6893a8fcc6ef913b1fbbfe2e2fc7e644da8685642a1475fa671c5e1b5184c9fd/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d737472656574732e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d737472656574732e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/6893a8fcc6ef913b1fbbfe2e2fc7e644da8685642a1475fa671c5e1b5184c9fd/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d737472656574732e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d737472656574732e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d737472656574732e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d737472656574732e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/6893a8fcc6ef913b1fbbfe2e2fc7e644da8685642a1475fa671c5e1b5184c9fd/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d737472656574732e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>      
+           
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/c7f5ec6bf0cbaf976fa6d84c40e9c838c29dc914275ab04256f3ea6ad22c7d47/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f31626f792d696e646f6f722e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/c7f5ec6bf0cbaf976fa6d84c40e9c838c29dc914275ab04256f3ea6ad22c7d47/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f31626f792d696e646f6f722e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/anything-v4/bear-guitar/1boy-indoor.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/c7f5ec6bf0cbaf976fa6d84c40e9c838c29dc914275ab04256f3ea6ad22c7d47/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f31626f792d696e646f6f722e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f31626f792d696e646f6f722e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/c7f5ec6bf0cbaf976fa6d84c40e9c838c29dc914275ab04256f3ea6ad22c7d47/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f31626f792d696e646f6f722e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f31626f792d696e646f6f722e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f31626f792d696e646f6f722e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f31626f792d696e646f6f722e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/c7f5ec6bf0cbaf976fa6d84c40e9c838c29dc914275ab04256f3ea6ad22c7d47/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f31626f792d696e646f6f722e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/339c15652b1655ed10388d40f443bcaf8e3fb51d428d488eac9e71c87804c006/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d62656163682e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/339c15652b1655ed10388d40f443bcaf8e3fb51d428d488eac9e71c87804c006/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d62656163682e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/anything-v4/bear-guitar/1girl-beach.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/339c15652b1655ed10388d40f443bcaf8e3fb51d428d488eac9e71c87804c006/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d62656163682e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d62656163682e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/339c15652b1655ed10388d40f443bcaf8e3fb51d428d488eac9e71c87804c006/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d62656163682e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d62656163682e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d62656163682e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d62656163682e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/339c15652b1655ed10388d40f443bcaf8e3fb51d428d488eac9e71c87804c006/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f616e797468696e672d76342f626561722d6775697461722f316769726c2d62656163682e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
 </tr>
 <tr>
   <td width="25%"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“一只熊在弹吉他”</font></font></td>
@@ -696,102 +233,21 @@ save_videos_grid(video, f&quot;./{prompt}.gif&quot;)" tabindex="0" role="button"
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/d37b10277a7610a93f2408a16dd06aa549e93b074cf606d9a999d16287c80f71/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7261626269742e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/d37b10277a7610a93f2408a16dd06aa549e93b074cf606d9a999d16287c80f71/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7261626269742e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/modern-disney/bear-guitar/rabbit.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/d37b10277a7610a93f2408a16dd06aa549e93b074cf606d9a999d16287c80f71/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7261626269742e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7261626269742e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/d37b10277a7610a93f2408a16dd06aa549e93b074cf606d9a999d16287c80f71/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7261626269742e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7261626269742e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7261626269742e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7261626269742e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/d37b10277a7610a93f2408a16dd06aa549e93b074cf606d9a999d16287c80f71/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7261626269742e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>      
+          
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/196298c7d62eb7fd1d9fcdfa8a279701cd969542b0e4c7118a77316d8ff82ca7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e63652e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/196298c7d62eb7fd1d9fcdfa8a279701cd969542b0e4c7118a77316d8ff82ca7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e63652e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/modern-disney/bear-guitar/prince.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/196298c7d62eb7fd1d9fcdfa8a279701cd969542b0e4c7118a77316d8ff82ca7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e63652e676966" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e63652e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/196298c7d62eb7fd1d9fcdfa8a279701cd969542b0e4c7118a77316d8ff82ca7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e63652e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e63652e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e63652e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e63652e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/196298c7d62eb7fd1d9fcdfa8a279701cd969542b0e4c7118a77316d8ff82ca7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e63652e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+      
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8cbf9a13bcee661cd0d5bbb7d55ca359e4fe9e52c945f2f94d3a7cdf8ada81b4/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e636573732e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/8cbf9a13bcee661cd0d5bbb7d55ca359e4fe9e52c945f2f94d3a7cdf8ada81b4/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e636573732e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/modern-disney/bear-guitar/princess.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/8cbf9a13bcee661cd0d5bbb7d55ca359e4fe9e52c945f2f94d3a7cdf8ada81b4/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e636573732e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e636573732e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/8cbf9a13bcee661cd0d5bbb7d55ca359e4fe9e52c945f2f94d3a7cdf8ada81b4/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e636573732e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e636573732e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e636573732e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e636573732e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/8cbf9a13bcee661cd0d5bbb7d55ca359e4fe9e52c945f2f94d3a7cdf8ada81b4/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d6f6465726e2d6469736e65792f626561722d6775697461722f7072696e636573732e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+      
 </tr>
 <tr>
   <td width="25%"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“一只熊在弹吉他”</font></font></td>
@@ -810,103 +266,21 @@ save_videos_grid(video, f&quot;./{prompt}.gif&quot;)" tabindex="0" role="button"
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" data-canonical-src="https://tuneavideo.github.io/assets/data/bear-guitar.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/8bc4eadb4c9bb7ef228c9cf0ce27e7139ef04e635400e56f6a5e98c43e40ea92/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f646174612f626561722d6775697461722e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+        
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3e5dc53b24372a4fe37c1ec7892e2de483537ec97c11ce33fa4b06c69d1adf0d/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f6c65676f2d736e6f772e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/3e5dc53b24372a4fe37c1ec7892e2de483537ec97c11ce33fa4b06c69d1adf0d/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f6c65676f2d736e6f772e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/mr-potato-head/bear-guitar/lego-snow.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/3e5dc53b24372a4fe37c1ec7892e2de483537ec97c11ce33fa4b06c69d1adf0d/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f6c65676f2d736e6f772e676966" target="_blank">
-          
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f6c65676f2d736e6f772e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/3e5dc53b24372a4fe37c1ec7892e2de483537ec97c11ce33fa4b06c69d1adf0d/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f6c65676f2d736e6f772e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f6c65676f2d736e6f772e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f6c65676f2d736e6f772e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f6c65676f2d736e6f772e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/3e5dc53b24372a4fe37c1ec7892e2de483537ec97c11ce33fa4b06c69d1adf0d/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f6c65676f2d736e6f772e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+       
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/3d87abfd3c5e49327edc07718f906f703e0e6555647a585878cbac9e602ee5b7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f73756e676c61737365732d62656163682e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/3d87abfd3c5e49327edc07718f906f703e0e6555647a585878cbac9e602ee5b7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f73756e676c61737365732d62656163682e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/mr-potato-head/bear-guitar/sunglasses-beach.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/3d87abfd3c5e49327edc07718f906f703e0e6555647a585878cbac9e602ee5b7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f73756e676c61737365732d62656163682e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f73756e676c61737365732d62656163682e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/3d87abfd3c5e49327edc07718f906f703e0e6555647a585878cbac9e602ee5b7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f73756e676c61737365732d62656163682e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f73756e676c61737365732d62656163682e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f73756e676c61737365732d62656163682e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f73756e676c61737365732d62656163682e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/3d87abfd3c5e49327edc07718f906f703e0e6555647a585878cbac9e602ee5b7/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f73756e676c61737365732d62656163682e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>      
+       
   <td><animated-image data-catalyst=""><a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/8075fde321f10a339572fa7c918640d930d578b7509349b54fdc8655844a9f8e/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f76616e2d676f67682e676966" data-target="animated-image.originalLink"><img src="https://camo.githubusercontent.com/8075fde321f10a339572fa7c918640d930d578b7509349b54fdc8655844a9f8e/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f76616e2d676f67682e676966" data-canonical-src="https://tuneavideo.github.io/assets/results/tuneavideo/mr-potato-head/bear-guitar/van-gogh.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
       <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="">
         <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://camo.githubusercontent.com/8075fde321f10a339572fa7c918640d930d578b7509349b54fdc8655844a9f8e/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f76616e2d676f67682e676966" target="_blank">
           
-        <span data-target="animated-image.imageContainer">
-            <img data-target="animated-image.replacedImage" alt="68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f76616e2d676f67682e676966" class="AnimatedImagePlayer-animatedImage" src="https://camo.githubusercontent.com/8075fde321f10a339572fa7c918640d930d578b7509349b54fdc8655844a9f8e/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f76616e2d676f67682e676966" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="177" height="177"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f76616e2d676f67682e676966" hidden=""></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f76616e2d676f67682e676966">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open 68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f76616e2d676f67682e676966 in new window" class="AnimatedImagePlayer-button" href="https://camo.githubusercontent.com/8075fde321f10a339572fa7c918640d930d578b7509349b54fdc8655844a9f8e/68747470733a2f2f74756e6561766964656f2e6769746875622e696f2f6173736574732f726573756c74732f74756e6561766964656f2f6d722d706f7461746f2d686561642f626561722d6775697461722f76616e2d676f67682e676966" target="_blank">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image></td>
+       
 </tr>
 <tr>
   <td width="25%"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">“一只熊在弹吉他”</font></font></td>
